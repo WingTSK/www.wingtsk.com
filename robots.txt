@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /?*
+Disallow: /*?*
+Allow: /favicon.ico
+Allow: /*.js?
+Allow: /*.css?
+Allow: /*.png?
+
+Sitemap: https://wingtsk.com/sitemap.xml
