@@ -4,16 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <title>404 Not Found</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="/index.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any"><!-- 32x32 -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
   <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512.png">
   <link rel="manifest" href="/manifest.webmanifest">
 </head>
+<style>
+#n404 {
+  font-size: calc(128px + 96 * (100vw - 512px) / 384);
+  text-align: center;
+  font-family: "Open Sans";
+}
+@media screen and (min-width: 896px){
+  #n404 {font-size: 224px;}
+}
+@media screen and (max-width: 512px){
+  #n404 {font-size: 128px;}
+}
+</style>
 <body>
   <div id="main">
-    <img style="max-height:24vw; height:168px;" src="404.png"></img>
+    <span id="n404">404</span>
   </div>
   <footer>
     <hr>
