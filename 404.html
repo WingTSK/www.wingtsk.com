@@ -10,20 +10,20 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512.png">
   <link rel="manifest" href="/manifest.webmanifest">
+  <style>
+  #n404 {
+    font-size: calc(128px + 96 * (100vw - 512px) / 384);
+    text-align: center;
+    font-family: "Open Sans", "Arial", sans-serif;
+  }
+  @media screen and (min-width: 896px){
+    #n404 {font-size: 224px;}
+  }
+  @media screen and (max-width: 512px){
+    #n404 {font-size: 128px;}
+  }
+  </style>
 </head>
-<style>
-#n404 {
-  font-size: calc(128px + 96 * (100vw - 512px) / 384);
-  text-align: center;
-  font-family: "Open Sans", "Arial", sans-serif;
-}
-@media screen and (min-width: 896px){
-  #n404 {font-size: 224px;}
-}
-@media screen and (max-width: 512px){
-  #n404 {font-size: 128px;}
-}
-</style>
 <body>
   <div id="main">
     <span id="n404">404</span>
